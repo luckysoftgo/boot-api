@@ -65,11 +65,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
+
+        <!--
+		<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
 			<version>1.4.5.RELEASE</version>
         </dependency>
+		-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

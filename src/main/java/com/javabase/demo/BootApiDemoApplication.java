@@ -3,7 +3,6 @@ package com.javabase.demo;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
  * 程序启动的入口.
@@ -11,7 +10,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 //com.javabase.*.dao 必须要这样的写法;如果写成:com.*.dao 的话,是不能被加载的; 或者:com.javabase.*
 @MapperScan(basePackages = "com.javabase.*.dao")
-@EnableFeignClients
 @SpringBootApplication
 public class BootApiDemoApplication {
 
